@@ -7,17 +7,10 @@ const GameGrid = () => {
   const qtdTotal = linhas * colunas;
   const shadowOffset = 12;
 
-  function discLogic(event) {
-
-
-  
-    console.log(event.currentTarget.getBoundingClientRect())
-  }
-
   return (
     <div
       className='bg-white h-160 w-160 rounded-4xl border-3 border-black
-    shadow-[0px_10px_0px_0px_rgba(0,0,0,1)] grid p-4'
+    shadow-[0px_10px_0px_0px_rgba(0,0,0,1)] grid p-4 relative'
       style={{
         gridTemplateColumns: `repeat(${colunas}, minmax(0, 1fr))`,
         gridTemplateRows: `repeat(${linhas}, minmax(0, 1fr))`,
@@ -37,7 +30,7 @@ const GameGrid = () => {
                 shadowOffset - linhaInvertida
               }px 0px 0px rgba(0,0,0,1)`,
             }}
-            onClick={discLogic}
+            // onClick={discLogic}
           />
         );
       })}

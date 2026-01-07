@@ -4,6 +4,13 @@
   --font-grotesk: "Space Grotesk", sans-serif;
   --color-roxoFundo: #5C2DD5;
   --color-roxo: #7945FF;
+}
 
+.animate-disc {
+  animation: girar 0.3s linear;
+}
 
+@keyframes girar {
+  from { margin-top: 0; }
+  to { top: 0; }
 }
