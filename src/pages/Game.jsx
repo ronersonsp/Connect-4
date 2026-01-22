@@ -1,14 +1,15 @@
-import React from 'react'
-import GameHeader from '../components/Game/GameHeader'
-import GameContent from '../components/Game/GameContent'
+import React from 'react';
+import GameHeader from '../features/Game/components/GameHeader';
+import GameContent from '../features/Game/components/GameContent';
 
 const Game = () => {
   return (
     <>
       <GameHeader />
+
       <GameContent />
     </>
-  )
-}
+  );
+};
 
-export default Game
+export default Game;

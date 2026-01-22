@@ -1,5 +1,5 @@
 import React from 'react';
-import { GameContext, GameStorage } from './context/GameContext';
+import { GameContext, GameStorage } from './features/Game/context/GameContext';
 import Home from './pages/Home';
 import Game from './pages/Game';
 

@@ -1,9 +1,9 @@
 import React from 'react';
-import Button from '../components/Button';
+import Button from '../shared/components/Button';
 import playerVsCpuIcon from '../assets/img/player-vs-cpu.svg';
 import playerVsPlayerIcon from '../assets/img/player-vs-player.svg';
 import Logo from '../assets/img/logo.svg';
-import { GameContext } from '../context/GameContext';
+import { GameContext } from '../features/Game/context/GameContext';
 
 const Home = () => {
   const { chooseMode } = React.useContext(GameContext)
