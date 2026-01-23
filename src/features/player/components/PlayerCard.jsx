@@ -12,9 +12,7 @@ const PlayerCard = ({player = 'owner', mode}) => {
   return (
     <div className='text-center bg-white
     py-4 px-10 rounded-2xl md:text-2xl font-bold
-    border-3 border-black
-      shadow-[0px_10px_0px_0px_rgba(0,0,0,1)]        
-      cursor-pointer'>
+    efeito-sombra'>
       <h3>{playerName}</h3>
       <span>0</span>
     </div>

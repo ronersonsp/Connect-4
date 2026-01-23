@@ -9,8 +9,18 @@
 .efeito-sombra {
   border: 3px solid black;
   box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 1);
+  transition: all 150ms ease-in-out;
+}
+
+.efeito-sombra-button {
+  border: 3px solid black;
+  box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 1);
   cursor: pointer;
   transition: all 150ms ease-in-out;
+}
+.efeito-sombra-button:active {
+  box-shadow: none;
+  transform: translateY(10px);
 }
 
 .animate-disc {

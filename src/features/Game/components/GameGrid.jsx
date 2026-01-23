@@ -6,7 +6,9 @@ const GameGrid = () => {
   const colunas = 7;
   const qtdTotal = linhas * colunas;
   const shadowOffset = 12;
-
+  // Resolver Bug
+  // O que ocorre: ao clicar o disc não está mais em sua posição original, está indo um pouco mais abaixo
+  // Porque ocorreu: Quebrou ao adicionar o scoreBoard
   return (
     <div
       className='bg-white h-160 w-160 rounded-4xl border-3 border-black
